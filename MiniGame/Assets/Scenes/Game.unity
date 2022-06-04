@@ -455,9 +455,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3638aaeaafbb72f4196300e022d410f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallPrefab: {fileID: 5601600380229838343, guid: a48bb71d45a19cc47a3d2f85f1bcb34f, type: 3}
-  interval: 1.5
-  range: 3
+  wallPrefab:
+  - {fileID: 5601600380229838343, guid: a48bb71d45a19cc47a3d2f85f1bcb34f, type: 3}
+  - {fileID: 5601600380229838343, guid: 06ab2e582fa58a243875bc948cb33e73, type: 3}
+  interval: 2.5
 --- !u!1 &778280561
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +551,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778280561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: 0}
+  m_LocalPosition: {x: -7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -568,7 +569,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 122
@@ -585,7 +586,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca39aa06a05fd6468961f0373d218bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpPower: 5
+  upDownValue: 2.5
+  HP: 55555
+  position: {x: 0, y: 0, z: 0}
+  moveSpeed: -5
+  attackPrefab: {fileID: 8965423344820926940, guid: 3f8c2a185befc834bbf235f586483869, type: 3}
+  attackSpeed: 15
+  attackInterval: 0.5
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
