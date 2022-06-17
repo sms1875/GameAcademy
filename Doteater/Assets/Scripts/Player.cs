@@ -28,7 +28,9 @@ public class Player : MonoBehaviour
         charCtrl.Move(dir * moveSpeed * Time.deltaTime);
         anim.SetFloat("Speed", charCtrl.velocity.magnitude);
         if (GameObject.FindGameObjectsWithTag("Dot").Length < 1)
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -39,7 +41,7 @@ public class Player : MonoBehaviour
                 Destroy(other.gameObject);
                 break;
             case "Enemy":
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene("Lose");
                 break;
         }
 
