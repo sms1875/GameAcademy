@@ -1,0 +1,893 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Education' Language: 'ko' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Documents/GitHub/GameAcademy/TEST
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54902
+Successfully changed project path to: C:/Users/user/Documents/GitHub/GameAcademy/TEST
+C:/Users/user/Documents/GitHub/GameAcademy/TEST
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 138.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/GameAcademy/TEST/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012861 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1158ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\GameAcademy\TEST\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\GameAcademy\TEST\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1910ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1397ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (630ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3480 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.5 MB). Loaded Objects now: 3950.
+Memory consumption went from 143.4 MB to 142.9 MB.
+Total: 13.307200 ms (FindLiveObjects: 0.285700 ms CreateObjectMapping: 0.155900 ms MarkObjects: 12.399100 ms  DeleteObjects: 0.465100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 348227.965918 seconds.
+  path: Assets/Free_Rocks/demo.unity
+  artifactKey: Guid(6c4ea9ec65e824364b9f6e5de6e9dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/demo.unity using Guid(6c4ea9ec65e824364b9f6e5de6e9dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f59c651db90202412855e7b07a39aa') in 0.047216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free_Rocks/prefabs.unity
+  artifactKey: Guid(3ee3293ef13f1440da0d08786ec5cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/prefabs.unity using Guid(3ee3293ef13f1440da0d08786ec5cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af863db4ff8872e8278150900fc7a3fb') in 0.015267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Free_Rocks/prefabsSettings.lighting
+  artifactKey: Guid(bbf078707cee65f46baee2f023d31671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/prefabsSettings.lighting using Guid(bbf078707cee65f46baee2f023d31671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '3e7b391dae581ff9e4187b775c1bf110') in 0.082792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.961594 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_AlbedoBMRLFGenericRockGrass_NormalB3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(4f495b2b196c3f74e9f889943624ea94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_AlbedoBMRLFGenericRockGrass_NormalB3d3aba195e4d26ee.terrainlayer using Guid(4f495b2b196c3f74e9f889943624ea94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30974b096a9f03195bf07ab34225bff5') in 0.170718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_DiffuseMRLFGenericRockGrass_Normal312cdf1c675cb011.terrainlayer
+  artifactKey: Guid(5d0d3e4852a020e45adbc78e0aa88637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_DiffuseMRLFGenericRockGrass_Normal312cdf1c675cb011.terrainlayer using Guid(5d0d3e4852a020e45adbc78e0aa88637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a13257606d9564639751e5b09e813a9') in 0.059498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MRLGenericGrass_DiffuseMRLGenericGrass_Normal3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(8d736d4a6fe9c944cb02ddea6475b5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MRLGenericGrass_DiffuseMRLGenericGrass_Normal3d3aba195e4d26ee.terrainlayer using Guid(8d736d4a6fe9c944cb02ddea6475b5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b3970ae234bd14a10196d240247c9') in 0.055999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_DiffuseMRLFGenericRockGrass_Normal4a04ae78e003058e.terrainlayer
+  artifactKey: Guid(b87cc673374790f4a88ae5a38041b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_DiffuseMRLFGenericRockGrass_Normal4a04ae78e003058e.terrainlayer using Guid(b87cc673374790f4a88ae5a38041b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc3e96d92214c287f155b21ca1b11eb') in 0.060827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_DiffuseMRLFGenericRockGrass_Normal3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(f2c3ece930c307549b2e4acac133e27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_MRLFGenericRockGrass_DiffuseMRLFGenericRockGrass_Normal3d3aba195e4d26ee.terrainlayer using Guid(f2c3ece930c307549b2e4acac133e27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcfb1d0de0755b75669efa5a464cabe') in 0.054308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.847897 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack
+  artifactKey: Guid(40c5d07d468ab9442a87de45bd0447e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack using Guid(40c5d07d468ab9442a87de45bd0447e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c003f1721cd00df9fdccd2afc712559c') in 0.014843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.622089 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs
+  artifactKey: Guid(927db1f5977f7a04693e6965fd3463d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs using Guid(927db1f5977f7a04693e6965fd3463d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662a79592ecc11ea6c50e17cc3dcd2ed') in 0.013243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056948 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_Cave.prefab
+  artifactKey: Guid(e318266f60803d548a4b409b52b39d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_Cave.prefab using Guid(e318266f60803d548a4b409b52b39d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8502d0c30d3ad4f07ad1b6aae34ff323') in 0.579310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockMediumA.prefab
+  artifactKey: Guid(838aed2c0bd6e074383add6c6e347995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockMediumA.prefab using Guid(838aed2c0bd6e074383add6c6e347995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2139ef223c1c018439c11bf71f35a29e') in 0.044150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockMediumC.prefab
+  artifactKey: Guid(ff421997f346e314c82e73610f419ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockMediumC.prefab using Guid(ff421997f346e314c82e73610f419ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7572e9291fb333792c9d400c05b4f31') in 0.361328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceTerrainB.prefab
+  artifactKey: Guid(7afaeace60251cd4dae84b0f6e7e8804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceTerrainB.prefab using Guid(7afaeace60251cd4dae84b0f6e7e8804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3772a38cc0912d1ea1901cccc061dd3b') in 0.394472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockMediumB.prefab
+  artifactKey: Guid(46b49871773764447a894bbb1c459502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockMediumB.prefab using Guid(46b49871773764447a894bbb1c459502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09220bd12858bca5e04285a07a425b56') in 0.086013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceC.prefab
+  artifactKey: Guid(2f54179bb3d458c4f8d350eba0f6856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceC.prefab using Guid(2f54179bb3d458c4f8d350eba0f6856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69afd2e4c17dc77aa435b1ce3141967d') in 1.236371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_DiffuseMobile.png
+  artifactKey: Guid(b40cc21c4d3b570428e308f2679a2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_DiffuseMobile.png using Guid(b40cc21c4d3b570428e308f2679a2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b218466401a3ae6ec101ffe512b76350') in 0.167784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_Diffuse.png
+  artifactKey: Guid(8fefb9076f81ecb4d90efcc90ed78870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_Diffuse.png using Guid(8fefb9076f81ecb4d90efcc90ed78870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11757f379ffd8addf52f76d2e113a4b6') in 0.026800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Diffuse.png
+  artifactKey: Guid(c01d51651a1762545b1662376645cb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Diffuse.png using Guid(c01d51651a1762545b1662376645cb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea5112e4669230383e1c2a789555744') in 0.039024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_AO.png
+  artifactKey: Guid(236b0004fd65e4246b78c5245ee14ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_AO.png using Guid(236b0004fd65e4246b78c5245ee14ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996a3157a5f450f6ac368b63ccc53d7d') in 0.048847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_Diffuse.png
+  artifactKey: Guid(cfb64e1a500bb644eaf3695fc103dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_Diffuse.png using Guid(cfb64e1a500bb644eaf3695fc103dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3619050aff4aa959d85a8ff70e36c6ff') in 0.034783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_Specular.tif
+  artifactKey: Guid(0634f63c7dd36a44eb3e1cf6c017aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_Specular.tif using Guid(0634f63c7dd36a44eb3e1cf6c017aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75106a378bbcf5624c5fcb6a0886ad2') in 0.047110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_DiffueMobile.png
+  artifactKey: Guid(cd43c0f6715209f43bb845a9137affa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_DiffueMobile.png using Guid(cd43c0f6715209f43bb845a9137affa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ceef1d84e8de0c5936201e6e347209') in 0.031099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLGenericGrass_Diffuse.png
+  artifactKey: Guid(7a65ad496b392f04c930c675e446e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLGenericGrass_Diffuse.png using Guid(7a65ad496b392f04c930c675e446e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67352f3b8f898f16bfb499b8573af30a') in 0.029810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_DiffuseMobile.png
+  artifactKey: Guid(ff57881ea6654f44c993c9a7385bf1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_DiffuseMobile.png using Guid(ff57881ea6654f44c993c9a7385bf1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40668a5cacf44498bbaebeca9bec1bb') in 0.023043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_Specular.tif
+  artifactKey: Guid(322285cb5150a084e95206dd1e33a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_Specular.tif using Guid(322285cb5150a084e95206dd1e33a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a42869722677d122fe3e09e102f2fb7') in 0.035170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_DiffuseMobile.png
+  artifactKey: Guid(36581f1fe1a1e6e4fa938d117513f987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_DiffuseMobile.png using Guid(36581f1fe1a1e6e4fa938d117513f987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b6333b05befd533ab6ea57518f5bd7') in 0.071109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumA_Normal2.png
+  artifactKey: Guid(0ec15205a46338042842fa8d7094c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumA_Normal2.png using Guid(0ec15205a46338042842fa8d7094c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815c3638723ce21efbe785d1893a0355') in 0.054714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal.png
+  artifactKey: Guid(13221ccc0fe5bdf4ab18a5400ca1dfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal.png using Guid(13221ccc0fe5bdf4ab18a5400ca1dfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3110b867593679b0c76ac777c70d663d') in 0.107650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffA_Normal.png
+  artifactKey: Guid(68eba6a4f88ab3f4faec4ae28645de7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffA_Normal.png using Guid(68eba6a4f88ab3f4faec4ae28645de7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324b20eb4bedb4e5de0e03c592e1c2dc') in 0.155733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockDetails_Normal.png
+  artifactKey: Guid(2a2c5e7f5082dd740aa37550eabc6727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockDetails_Normal.png using Guid(2a2c5e7f5082dd740aa37550eabc6727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f15f512bdb228296fcc1386af5ca7d') in 0.042366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCave_Normal.png
+  artifactKey: Guid(f12f2d3bf017ad44cb28b3c5535811a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCave_Normal.png using Guid(f12f2d3bf017ad44cb28b3c5535811a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc559f28777495d83fd1c3ccdc872b4') in 0.054261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockMediumC_Normal2.png
+  artifactKey: Guid(d8b8991f829aabd4b97e95b445eb9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockMediumC_Normal2.png using Guid(d8b8991f829aabd4b97e95b445eb9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c60ca448cb2fc26e28d30bed9ca6d') in 0.063439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLGenericGrass_Normal.png
+  artifactKey: Guid(69ccd7b6580105545993617c741e294f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLGenericGrass_Normal.png using Guid(69ccd7b6580105545993617c741e294f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac68146b1e31e3d0ab09707764546386') in 0.069145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_Cave.mat
+  artifactKey: Guid(a1ecfe9351629e545834c8caa2156f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_Cave.mat using Guid(a1ecfe9351629e545834c8caa2156f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4289850022271dcb4fc7f0915cda2739') in 0.232059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA.mat
+  artifactKey: Guid(478e0b09975d17c428b33b74656eba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA.mat using Guid(478e0b09975d17c428b33b74656eba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f022d3b2a966a59c2c2dc74b83655488') in 0.062448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceTrunk.mat
+  artifactKey: Guid(f7fe326e3e678744aa884039f16d78ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceTrunk.mat using Guid(f7fe326e3e678744aa884039f16d78ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7c641239ea85cba041fdb7bec20a93') in 0.031919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_CaveTop.mat
+  artifactKey: Guid(512599429162124479bce8a91fff86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_CaveTop.mat using Guid(512599429162124479bce8a91fff86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59112a0b2668e1dfbf99c5aae43e37ad') in 0.055495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceLeaves_Nature.mat
+  artifactKey: Guid(36ede47c7a6a4504c8bb7ccacbb8582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceLeaves_Nature.mat using Guid(36ede47c7a6a4504c8bb7ccacbb8582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bb18c3d20eea8b185b0bebb90130d2') in 0.033571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA_DiffuseMobile.mat
+  artifactKey: Guid(c38516a998ce6e94d922ad82a424e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA_DiffuseMobile.mat using Guid(c38516a998ce6e94d922ad82a424e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c1c038b8acd1d856ba5dd61d965e12') in 0.326908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumC.mat
+  artifactKey: Guid(8f52d028c029b574ca501879a81d8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumC.mat using Guid(8f52d028c029b574ca501879a81d8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338ea117cd8c3516ca10fb444d7ed181') in 0.050254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium.mat
+  artifactKey: Guid(acfb34e7f1f1e034ab5611b5985295a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium.mat using Guid(acfb34e7f1f1e034ab5611b5985295a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50670f596ff76b9a43c2c25c6dc3c33') in 0.054568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB_Mobile.mat
+  artifactKey: Guid(ef58bab276304d94bb9a343ed340560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB_Mobile.mat using Guid(ef58bab276304d94bb9a343ed340560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da403251575b7bb4d9150ba261895eb') in 0.031946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_Normal.png
+  artifactKey: Guid(eb27eae67d189cb499cceefbbf8d8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_Normal.png using Guid(eb27eae67d189cb499cceefbbf8d8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c7fbf96b565f041728337a22056c4f') in 0.045475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffB_Normal.png
+  artifactKey: Guid(a16cabfe30a04b7428b1bfe307bc22bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffB_Normal.png using Guid(a16cabfe30a04b7428b1bfe307bc22bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77eec37f958c25e48a35d2a48ce4d7f') in 0.076892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumA.mat
+  artifactKey: Guid(f5c7d7069c1db5c4bb8cd140222a6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumA.mat using Guid(f5c7d7069c1db5c4bb8cd140222a6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6510ebffe98c81adbe5a1f6895bb5277') in 0.047550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Albedo.png
+  artifactKey: Guid(699fd2cba0237e24f8c475f4b3f385f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Albedo.png using Guid(699fd2cba0237e24f8c475f4b3f385f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970bf80d0c40deb5a826944785f390c2') in 0.024315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceTrunk_Nature.mat
+  artifactKey: Guid(b6b55900a82122d4cac45581a7cd97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceTrunk_Nature.mat using Guid(b6b55900a82122d4cac45581a7cd97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53376c2caca2bddef2133cdffa9f03c1') in 0.035430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockDetails.mat
+  artifactKey: Guid(9cf4f2921db99934bb6054905cbbb64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockDetails.mat using Guid(9cf4f2921db99934bb6054905cbbb64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c027714e6c86a9f65dac2facbf3b12e') in 0.032386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_AO.png
+  artifactKey: Guid(e1c5f84b8c1c2524ba29a80ca07f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_AO.png using Guid(e1c5f84b8c1c2524ba29a80ca07f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726be5bff60514ed792f24d31dbb2b76') in 0.024127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceTerrainA.prefab
+  artifactKey: Guid(156f975b5c133c846bd7dd4d6c726faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceTerrainA.prefab using Guid(156f975b5c133c846bd7dd4d6c726faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9b4b7b3a8a5a1ae0b10ce3492a316c') in 0.041607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Diffuse.png
+  artifactKey: Guid(3e95783887475bc478443c161d476639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Diffuse.png using Guid(3e95783887475bc478443c161d476639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d6fa66621971b1f08b21255727412c') in 0.031172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceLeaves_Diffuse.tif
+  artifactKey: Guid(ea25fdb9ef5bb3c408d8c4a59a760f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceLeaves_Diffuse.tif using Guid(ea25fdb9ef5bb3c408d8c4a59a760f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c03b81f85273d42787f9460f6f03cb') in 0.022981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_GenericCliffA.prefab
+  artifactKey: Guid(b12c8b6046ef0604b96e60fe14b9c16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_GenericCliffA.prefab using Guid(b12c8b6046ef0604b96e60fe14b9c16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445a1166a8a7904f3c7d47af8d189ea1') in 0.099273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_DiffuseMobile.png
+  artifactKey: Guid(417b8b64d99ffa444ab95cdcdb238a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_DiffuseMobile.png using Guid(417b8b64d99ffa444ab95cdcdb238a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2dc4da464d7aaa8eb9c357a510b583') in 0.020499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCaveTop_Normal.png
+  artifactKey: Guid(4fe420bef6a1ff74abb58f7ba0e64b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCaveTop_Normal.png using Guid(4fe420bef6a1ff74abb58f7ba0e64b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3511e9944d73af514fc592af4d47753') in 0.049523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffB_Normal2.png
+  artifactKey: Guid(d7e04875a80e35844a5fb5e26103f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffB_Normal2.png using Guid(d7e04875a80e35844a5fb5e26103f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf591c2d630da9e7791d53e8cb693799') in 0.049988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffA_Normal2.png
+  artifactKey: Guid(791e9d77deabaa44abee254f19e0c742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffA_Normal2.png using Guid(791e9d77deabaa44abee254f19e0c742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a4925421bbcfe379674394fa74e184') in 0.050113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_AO.png
+  artifactKey: Guid(184a7985456dc5a40bb2dfebc58d9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_AO.png using Guid(184a7985456dc5a40bb2dfebc58d9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b9b018abf7bb9625360ae26c38a3db') in 0.029757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_Specular.tif
+  artifactKey: Guid(88ef541e3a436c249965bdd21bc81c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_Specular.tif using Guid(88ef541e3a436c249965bdd21bc81c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3302879b5317eeb92113eb5c0a2985fb') in 0.027185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockDetailsA.prefab
+  artifactKey: Guid(5eb9966c8253a3649970e935258ad8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockDetailsA.prefab using Guid(5eb9966c8253a3649970e935258ad8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457fddf8b8fc0bcfb96c8aaf3b3c8b43') in 0.028938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_GenericCliffB.prefab
+  artifactKey: Guid(7fbdfd6f6f8e7b8459e7ec638775fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_GenericCliffB.prefab using Guid(7fbdfd6f6f8e7b8459e7ec638775fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816c1f4ac3033254313e50013d757559') in 0.047992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceB.prefab
+  artifactKey: Guid(9691faf058659e249801df471fd460bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceB.prefab using Guid(9691faf058659e249801df471fd460bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb96ffc5d38d0ab9a93fcf0c6c898e1') in 0.028716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCaveTop_Normal2.png
+  artifactKey: Guid(5e802fa9657004f4ab98b37803e75cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCaveTop_Normal2.png using Guid(5e802fa9657004f4ab98b37803e75cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313a3553a9d407551342c2f329e7a23d') in 0.036437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB.mat
+  artifactKey: Guid(7d83b943a5802e14499a11a38ac8946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB.mat using Guid(7d83b943a5802e14499a11a38ac8946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef6c1b931b9726ff39b884295815387') in 0.044912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumAO.png
+  artifactKey: Guid(c52a51cae2999eb4db1bb71f3ff30ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumAO.png using Guid(c52a51cae2999eb4db1bb71f3ff30ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b62653496c0a4be73b1620876837ce8') in 0.022260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_AO.png
+  artifactKey: Guid(b756c4a84cfc55f438d2947a2a75088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_AO.png using Guid(b756c4a84cfc55f438d2947a2a75088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14244921980933a7243cee9e1e5c828c') in 0.022242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_AO.png
+  artifactKey: Guid(295235c55a4af274fa927c1ad30efc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_AO.png using Guid(295235c55a4af274fa927c1ad30efc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfdd8e0a223867e4ef907b262664f39') in 0.024564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCave_NormalDetail.png
+  artifactKey: Guid(01bb416b0bcb240478a4db8519684ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCave_NormalDetail.png using Guid(01bb416b0bcb240478a4db8519684ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09728c1808cc6a3fdd6e5be14d9ef8b4') in 0.046695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB.mat
+  artifactKey: Guid(0a535cf27e7d7dd4d8857f6b49fbbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB.mat using Guid(0a535cf27e7d7dd4d8857f6b49fbbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13e21c3951ff3cdbf24e43ac7c4e33f') in 0.049934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Hight.tif
+  artifactKey: Guid(ace68ecd427fd794f9857b3d39e5ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Hight.tif using Guid(ace68ecd427fd794f9857b3d39e5ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5d7a8f85ae35cd53d8c5cb12a2ed91') in 0.023398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Albedo.png
+  artifactKey: Guid(589955eae394ba440974cdd920d45700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Albedo.png using Guid(589955eae394ba440974cdd920d45700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f9d55ccec4b6040e0d2d17140b622a') in 0.020544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Specular.tif
+  artifactKey: Guid(c7670c7503811c543b650293f96c757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Specular.tif using Guid(c7670c7503811c543b650293f96c757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dca26515fc04c5824da3ee1fd0ff41') in 0.020344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/SpruceLeaves_Normal.png
+  artifactKey: Guid(0e3cd288a3136794495e2330fcde9683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/SpruceLeaves_Normal.png using Guid(0e3cd288a3136794495e2330fcde9683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963b4c6086fd3e54dfa4eb26ac7fdc83') in 0.024724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB_Mobile.mat
+  artifactKey: Guid(9d1903eb1bcfb1d42acfbd4d8c7a90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffB_Mobile.mat using Guid(9d1903eb1bcfb1d42acfbd4d8c7a90b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d78d2e0c307d51011a8d956ac309587') in 0.037138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceLeaves.mat
+  artifactKey: Guid(28303f4da9d2ff541832c09ea9121e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceLeaves.mat using Guid(28303f4da9d2ff541832c09ea9121e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a54f00dbb547edc70fd5ec900e53af') in 0.023818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Specular.tif
+  artifactKey: Guid(eb687a1778c19d945a40c5816272c1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Specular.tif using Guid(eb687a1778c19d945a40c5816272c1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73788e2ac73ef8b3b902e5fe79afdeb') in 0.028102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_Diffuse.png
+  artifactKey: Guid(699bfecaedac4ab4ba55c4592f9aee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_Diffuse.png using Guid(699bfecaedac4ab4ba55c4592f9aee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add9b8ec29f9dfcb7f67ecbc0c36fa45') in 0.021305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_AO.png
+  artifactKey: Guid(49da2760a267e734ea4916d23933b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_AO.png using Guid(49da2760a267e734ea4916d23933b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1b79c9680d6f96b499de337da2ccfe') in 0.022131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_AO.png
+  artifactKey: Guid(a25ae3da80ed0ad4899a1ba747cf87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_AO.png using Guid(a25ae3da80ed0ad4899a1ba747cf87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748f649f29bf7eaa59251848c7ca4ee2') in 0.026722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_AO.png
+  artifactKey: Guid(a3835049db2b89742beda3790ef0189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_AO.png using Guid(a3835049db2b89742beda3790ef0189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f35c6ae91bce6698bb4616d534ff647') in 0.020223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium_Mobile.mat
+  artifactKey: Guid(fda213ba68a53de4da95946ef7f5dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_LowRockMedium_Mobile.mat using Guid(fda213ba68a53de4da95946ef7f5dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be02079d20eb7377901bef938d09b52d') in 0.028938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Diffuse.png
+  artifactKey: Guid(8e31fbe55c8ce8e4582bda011296cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Diffuse.png using Guid(8e31fbe55c8ce8e4582bda011296cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7681bce893e77f074362409ff35bb7') in 0.032487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Albedo.png
+  artifactKey: Guid(7193a6787ada0c749b5388d7b75a3c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Albedo.png using Guid(7193a6787ada0c749b5388d7b75a3c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b109df95c1087bfa4ccb321afe49be4') in 0.036497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_Diffuse.png
+  artifactKey: Guid(617b2ab5df4a8b94c950523d8cc95412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_Diffuse.png using Guid(617b2ab5df4a8b94c950523d8cc95412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995296957f9a64fa2100107322436e47') in 0.030173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_AO.png
+  artifactKey: Guid(b3b9ae7d4d03f6e49a56ea879899049e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_AO.png using Guid(b3b9ae7d4d03f6e49a56ea879899049e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8680efdd758276ab847d1fb12da5614c') in 0.030680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_NormalB.png
+  artifactKey: Guid(ea165a9df53f5814a8ca48083f1c35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_NormalB.png using Guid(ea165a9df53f5814a8ca48083f1c35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b00f103480b1116330791eea871534') in 0.074211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.012302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Specular.tif
+  artifactKey: Guid(a0131355e59940844b7110d704f71fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Specular.tif using Guid(a0131355e59940844b7110d704f71fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce75ef3c85764809da972dcc9e18cccc') in 0.063319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumA_Normal.png
+  artifactKey: Guid(dd98c77845272a54fa7debabd9dd46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumA_Normal.png using Guid(dd98c77845272a54fa7debabd9dd46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc583bbfcf55f03bdbd0a23e37751178') in 0.080812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_AlbedoB.png
+  artifactKey: Guid(324f22d2aab571f40aa1b1af7d698606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_AlbedoB.png using Guid(324f22d2aab571f40aa1b1af7d698606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc708304a2c6cb543ed23f4bcedea792') in 0.029805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_Specular.tif
+  artifactKey: Guid(2c802448d2858ff49b53bdbf08e114f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_Specular.tif using Guid(2c802448d2858ff49b53bdbf08e114f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebe1f5021b1e550ca729711305b2a41') in 0.038639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Specular.tif
+  artifactKey: Guid(cee593f0c582b3e47968ede5871af963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Specular.tif using Guid(cee593f0c582b3e47968ede5871af963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a93ddc7b7ef896607abe075576a4d7c') in 0.025556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceA.prefab
+  artifactKey: Guid(ddd082fb4672f6643be6891e17a84358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceA.prefab using Guid(ddd082fb4672f6643be6891e17a84358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355e444baa60266053de5d4df5862e4e') in 0.082440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Diffuse.png
+  artifactKey: Guid(4e378473470043248af9eee2da286ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Diffuse.png using Guid(4e378473470043248af9eee2da286ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279bcdcb6484dce290e9d20e2904d5f2') in 0.038670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumB_Normal.png
+  artifactKey: Guid(48c982ca184f98c439d8d7b7926af7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumB_Normal.png using Guid(48c982ca184f98c439d8d7b7926af7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413126f0b9bb42b80c636597cc702653') in 0.116465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_LowRockMedium.prefab
+  artifactKey: Guid(0b77cb11615419c4ba1888ac53ce2718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_LowRockMedium.prefab using Guid(0b77cb11615419c4ba1888ac53ce2718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25af8b795cbe4e52bf0d5e46f4793a25') in 0.063224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal2.png
+  artifactKey: Guid(6f6accb1438b18043a291d481576dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal2.png using Guid(6f6accb1438b18043a291d481576dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b741f8d267df4bf693e0cece588864') in 0.071025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumA _Mobile.mat
+  artifactKey: Guid(07fc53a408f46fe4c8f16f3f168693b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumA _Mobile.mat using Guid(07fc53a408f46fe4c8f16f3f168693b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8817fbe3443d3fce9ab1e35ee2ee3938') in 0.035406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_Diffuse.png
+  artifactKey: Guid(4066853556797034ca6fcc214c3cec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_Diffuse.png using Guid(4066853556797034ca6fcc214c3cec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039dacb773271bc405e9c7120e29d43d') in 0.023689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_Specular.tif
+  artifactKey: Guid(02cf7a0df64665741b74393d9dbe2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_Specular.tif using Guid(02cf7a0df64665741b74393d9dbe2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb09a222c7a7eaa79e2425dfc7d3f3') in 0.021680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_AO.png
+  artifactKey: Guid(98f193f3cc2292b47a767ad077e64146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_AO.png using Guid(98f193f3cc2292b47a767ad077e64146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fcb55ab780eab2400196313b314148') in 0.022152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/SpruceTrunk_Normal.png
+  artifactKey: Guid(18935532cbe1ff8479d9b1166024c99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/SpruceTrunk_Normal.png using Guid(18935532cbe1ff8479d9b1166024c99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecad6a34c8d6eddcc9a185539d7b9c7') in 0.024548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLGenericGrass_AO.png
+  artifactKey: Guid(9450953e9d36e2e469934613fd6893cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLGenericGrass_AO.png using Guid(9450953e9d36e2e469934613fd6893cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ed74784e744c249ba8dbdf0bda5b2a') in 0.040767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceTerrainC.prefab
+  artifactKey: Guid(000fe5e39bc5b2b44b03d5e5d4f40d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceTerrainC.prefab using Guid(000fe5e39bc5b2b44b03d5e5d4f40d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9ed8ade648d80610f15345c993da48') in 0.046048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Diffuse.png
+  artifactKey: Guid(3deed20a70d7cb94fb39b9e13d57f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Diffuse.png using Guid(3deed20a70d7cb94fb39b9e13d57f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224722eb640907afcb537d00727dae56') in 0.024741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockMediumC_Normalx.png
+  artifactKey: Guid(dc569a4d9a826524faafda1ea2bf4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockMediumC_Normalx.png using Guid(dc569a4d9a826524faafda1ea2bf4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7af354ab2d3e888e5e768659d54717') in 0.042008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_Specular.tif
+  artifactKey: Guid(5cf822336ca1ebd4cbb6c2afc6df479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_Specular.tif using Guid(5cf822336ca1ebd4cbb6c2afc6df479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253569bda808cbc7596e90ca732c8de9') in 0.020737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockDetailsB.prefab
+  artifactKey: Guid(db0765e6c54e2234d9644377794d9ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockDetailsB.prefab using Guid(db0765e6c54e2234d9644377794d9ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089e75d3a15ebc8e184743d0f62d28e0') in 0.032628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_Diffuse.png
+  artifactKey: Guid(31bebcdcc51e9654a9a4ce9e33f56d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_Diffuse.png using Guid(31bebcdcc51e9654a9a4ce9e33f56d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8700594654b2b522d94e5949141f7390') in 0.064482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.973113 seconds.
+  path: Assets/Free_Rocks/_prefabs
+  artifactKey: Guid(fb6a55538394248b7803d91ecf9f3fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/_prefabs using Guid(fb6a55538394248b7803d91ecf9f3fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ddc8822faffe4ef390018959261487') in 0.009333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.147037 seconds.
+  path: Assets/Free_Rocks/_prefabs/cliff.prefab
+  artifactKey: Guid(d9d1fbfcf69364ffd8f9c6ade9ce90fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/_prefabs/cliff.prefab using Guid(d9d1fbfcf69364ffd8f9c6ade9ce90fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf04624ebc1b42366f70ad0545991fd2') in 0.349620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Free_Rocks/_prefabs/rock1.prefab
+  artifactKey: Guid(a2d308598386f4a0797f87a4b95b9dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/_prefabs/rock1.prefab using Guid(a2d308598386f4a0797f87a4b95b9dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56764f5c4dd6fb1a3e3b373b65a5460') in 0.080076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free_Rocks/_prefabs/rock2.prefab
+  artifactKey: Guid(7b5f2f9ea19c74c659ab8ac969280fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/_prefabs/rock2.prefab using Guid(7b5f2f9ea19c74c659ab8ac969280fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367eb6bb21f43711fb3240da1cf83449') in 0.083911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free_Rocks/_prefabs/rock3.prefab
+  artifactKey: Guid(24be8e1643b8a474fbb57fcda8a1c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/_prefabs/rock3.prefab using Guid(24be8e1643b8a474fbb57fcda8a1c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441eff997b68d68d3ac4134e7200f2ef') in 0.087038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free_Rocks/_prefabs/rock4.prefab
+  artifactKey: Guid(84376f2a0948947b5a6dfe814a1100a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_Rocks/_prefabs/rock4.prefab using Guid(84376f2a0948947b5a6dfe814a1100a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e37599cbe937dc95af46a2cdc26a286') in 0.080029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.561457 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile
+  artifactKey: Guid(75c2f606ce5685c4e9b64bedd4768fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile using Guid(75c2f606ce5685c4e9b64bedd4768fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e127d9bb64d4ffb17f7901f251fc3152') in 0.013565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027916 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_GenericCliffA_Mobile.prefab
+  artifactKey: Guid(c38badcdd764dfb488882e68d04ff995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_GenericCliffA_Mobile.prefab using Guid(c38badcdd764dfb488882e68d04ff995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194dd341dddddb6e2eea0dcb19163bf2') in 0.026274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_RockMediumB_Mobile.prefab
+  artifactKey: Guid(e2f030509428b1d4ba687efa90da19fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_RockMediumB_Mobile.prefab using Guid(e2f030509428b1d4ba687efa90da19fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178ba0d622a320e14b15e967db901864') in 0.026987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_RockMediumA_Mobile.prefab
+  artifactKey: Guid(01fdffdb35358544f8c6080251208de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_RockMediumA_Mobile.prefab using Guid(01fdffdb35358544f8c6080251208de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c89c7784977e1cecf62497a8d821c71') in 0.023915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_GenericCliffB_,obile.prefab
+  artifactKey: Guid(aaccca5e65f90714c960e2019fd174c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_GenericCliffB_,obile.prefab using Guid(aaccca5e65f90714c960e2019fd174c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883832726600917c64023c8c97f2af21') in 0.026407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_LowRockMedium_Mobile.prefab
+  artifactKey: Guid(c62c2aa8570885845900b3d909da3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs Mobile/RHEF_LowRockMedium_Mobile.prefab using Guid(c62c2aa8570885845900b3d909da3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa43f1154875684e495d0be845718da') in 0.025934 seconds 

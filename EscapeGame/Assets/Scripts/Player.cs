@@ -16,16 +16,17 @@ public class Player : MonoBehaviour
     //Animator anim;
 
     //카메라설정
-    [SerializeField] private float mouseSensitivity = 200;
-
+    public float mouseSensitivity = 800;
 
     public TextMeshProUGUI hpText;
     public TextMeshProUGUI keyText;
     public TextMeshProUGUI timeText;
 
+    public bool cursor = false;
+
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+
         charCtrl = GetComponent<CharacterController>();
         //anim = GetComponentInChildren<Animator>();//unitychan프리팹의 animator
     }
@@ -40,32 +41,49 @@ public class Player : MonoBehaviour
         dir.y -= gravity * Time.deltaTime;
         charCtrl.Move(dir * moveSpeed * Time.deltaTime);
 
-        setUI();
+        if (Input.GetKeyDown(KeyCode.Escape))
+            cursor = true;
+        if (Input.anyKey)
+            cursor = false;
 
+        setCursor();
+        setUI();
         CameraRotation();
-        if (GameObject.FindGameObjectsWithTag("Key").Length < 1)
-        {
-            KeyTrigger = true;
-            Debug.Log("key");
-        }
+        keyCheck();
+    }
+
+    private void setCursor()
+    {
+        if (cursor)
+            Cursor.lockState = CursorLockMode.None;
+        else
+            Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void setUI()
     {
         hpText.text = ("HP : " + Hp.ToString());
 
-        if(GameObject.FindGameObjectsWithTag("Key").Length<1)
-            keyText.text = ("Key : Clear!" );
-        else       
+        if (GameObject.FindGameObjectsWithTag("Key").Length < 1)
+            keyText.text = ("Key : Clear!");
+        else
             keyText.text = ("Key : " + GameObject.FindGameObjectsWithTag("Key").Length.ToString());
 
-        timeText.text = ("Time : ")+ ((int)setTime).ToString();
+        timeText.text = ("Time : ") + ((int)setTime).ToString();
     }
 
     private void CameraRotation()//캐릭터 좌우회전
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         transform.Rotate(Vector3.up * mouseX);
+    }
+
+    private void keyCheck()
+    {
+    if (GameObject.FindGameObjectsWithTag("Key").Length < 1)
+        {
+            KeyTrigger = true;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
