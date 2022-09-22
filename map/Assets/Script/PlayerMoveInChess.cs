@@ -7,6 +7,9 @@ public class PlayerMoveInChess : MonoBehaviour
     public Transform Player;
     public float speed;
     bool a, b;
+
+    public GameObject mapM;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +24,6 @@ public class PlayerMoveInChess : MonoBehaviour
     }
     public void Right()
     {
-
         Player.position += new Vector3(10, 0, 0);
     }
     public void Left()
